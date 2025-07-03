@@ -110,6 +110,9 @@ footer a:hover{
 }
 
 /*About Page*/
+.header-about h2{
+    text-align: center;
+}
 .texto-sobre p{
     margin-left: 20px;
     margin-right: 0px;
