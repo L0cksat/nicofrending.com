@@ -184,7 +184,55 @@ footer a:hover{
     margin-bottom: 25px;
 }
 
+.button-spotify {
+    width: 100px;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.button-spotify img{
+    width: 100%;
+    height: 100%;
+}
+
+.top-img{
+    position: absolute;
+    left: 0;
+    top:0;
+    opacity: 0;
+}
+
+.button-spotify:hover{
+    background-color: whitesmoke;
+    transition: 0.2s;
+}
+
+.top-img:hover{
+    opacity: 1;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+
 /*Merch Page*/
+.merch1{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.image-merch1 img{
+    width: 100%;
+    height: 100%;
+}
 
 /*Contact me Page*/
 .formulario{
